@@ -1,15 +1,44 @@
 @import "tailwindcss";
 
+/* ==================== COLOR PALETTE ==================== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* PRIMARY COLORS */
+  --color-primary-dark: #0a0a0a;
+  --color-primary-light: #faf9f6;
+  
+  /* GREEN PALETTE (Secondary) */
+  --color-green-dark: #2e4e3f;
+  --color-green-medium: #324f3c;
+  --color-green-vibrant: #0a6c48;
+  --color-green-hover: #075337;
+  
+  /* GOLD/ACCENT PALETTE */
+  --color-gold-dark: #cba75d;
+  --color-gold-medium: #d1b97b;
+  --color-gold-light: #e5d5a7;
+  --color-gold-pale: #dcd4bc;
+  
+  /* NEUTRAL/BACKGROUND PALETTE */
+  --color-bg-cream: #f9f8f3;
+  --color-bg-light-warm: #f3e8d6;
+  --color-bg-lightest: #fcfaf7;
+  --color-bg-border: #f0ebe1;
+  --color-bg-border-light: #f5f1e8;
+  --color-bg-light-beige: #eae8e1;
+  
+  /* DARK PALETTE */
+  --color-dark-charcoal: #2c2c2c;
+  --color-dark-black: #1f1f1f;
+  
+  /* TEXT COLORS */
+  --color-text-primary: #333333;
+  --color-text-secondary: #666666;
+  --color-text-muted: #999999;
+  --color-text-dark: #1a1a1a;
+  
+  /* QUOTE/ACCENT COLORS */
+  --color-quote-bg: #f0ebe0;
+  --color-quote-mark: #DBA400;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +46,13 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+;@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
 }
 
 body {
