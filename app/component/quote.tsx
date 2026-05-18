@@ -1,9 +1,9 @@
 export default function Quote() {
   return (
-    <div className="relative bg-[var(--color-quote-bg)] rounded-2xl p-[28px] pb-[24px] max-w-full font-serif leading-[1.55]">
+    <div className="relative bg-(--color-quote-bg) rounded-2xl p-7 pb-6 max-w-full font-serif leading-[1.55]">
       {/* Quote body */}
-      <p className="m-0 text-[15px] text-[var(--color-text-dark)] font-normal font-serif">
-        <span className="text-[30px] text-[var(--color-quote-mark)] font-serif px-[10px] ml-[2px] align-sub">
+      <p className="m-0 text-[15px] text-(--color-text-dark) font-normal font-serif">
+        <span className="text-[30px] text-(--color-quote-mark) font-serif px-2.5 ml-0.5 align-sub">
           &ldquo;
         </span>
         <i>
@@ -13,7 +13,7 @@ export default function Quote() {
           impact.
         </i>
         {/* Inline closing quote mark, smaller than the opening one */}
-        <span className="text-[30px] text-[var(--color-quote-mark)] font-serif px-[10px] ml-[2px] align-sub">
+        <span className="text-[30px] text-(--color-quote-mark) font-serif px-2.5 ml-0.5 align-sub">
           &rdquo;
         </span>
       </p>
