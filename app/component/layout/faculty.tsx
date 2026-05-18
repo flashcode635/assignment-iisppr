@@ -1,7 +1,7 @@
 export const FacultyComponent=()=>{
 return(
     <>
-         <section className="relative w-full py-20 bg-[#faf9f6]">
+         <section className="faculty-section relative w-full py-20 bg-[#faf9f6]">
         {/* Topographic Background Pattern */}
         <div 
           className="absolute inset-0 opacity-[0.04] pointer-events-none" 
@@ -25,7 +25,7 @@ return(
             
             <div className="flex justify-center gap-12 sm:gap-24">
               {/* Faculty 1 */}
-              <div className="flex flex-col items-center text-center mt-4">
+              <div className="faculty-card opacity-0 flex flex-col items-center text-center mt-4">
                 <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full border-[5px] border-white shadow-[0_4px_15px_rgba(0,0,0,0.08)] overflow-hidden mb-5">
                   <img src="https://iisppracademy.com/Prof.%20(Dr.)%20Areiba%20Arif.webp" alt="Dr. Areeba Arif" className="w-full h-full object-cover" />
                 </div>
@@ -34,7 +34,7 @@ return(
               </div>
               
               {/* Faculty 2 (Center - Highlighted) */}
-              <div className="flex flex-col items-center text-center mt-4">
+              <div className="faculty-card opacity-0 flex flex-col items-center text-center mt-4">
                 <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full border-[5px] 
                 border-(--color-gold-light) 
                 shadow-[0_8px_25px_rgba(0,0,0,0.12)] overflow-hidden mb-5">
@@ -45,7 +45,7 @@ return(
               </div>
               
               {/* Faculty 3 */}
-              <div className="flex flex-col items-center text-center mt-4">
+              <div className="faculty-card opacity-0 flex flex-col items-center text-center mt-4">
                 <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full border-[5px] border-white shadow-[0_4px_15px_rgba(0,0,0,0.08)] overflow-hidden mb-5">
                   <img src="https://iisppracademy.com/Dr.%20Faiz%20Noor%20Khan%20Yusufi.png" alt="Dr. Faiza Noor Khan Yousufi" className="w-full h-full object-cover" />
                 </div>
@@ -57,7 +57,7 @@ return(
           </div>
           
           {/* Leadership Message Box */}
-          <div className="max-w-175 mx-auto bg-white border border-(--color-bg-light-beige) rounded p-10 text-center relative shadow-[0_2px_15px_rgba(0,0,0,0.03)] mt-8">
+          <div className="leadership-box opacity-0 max-w-175 mx-auto bg-white border border-(--color-bg-light-beige) rounded p-10 text-center relative shadow-[0_2px_15px_rgba(0,0,0,0.03)] mt-8">
             <div className="absolute -top-3 right-8 text-(--color-gold-pale)">
               <svg width="22" height="30" viewBox="0 0 24 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 0H24V32L12 24L0 32V0Z" />

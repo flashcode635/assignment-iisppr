@@ -1,14 +1,14 @@
 export const ProgInfo=()=>{
     return(
         <>
-              <section className="max-w-4xl mx-auto px-6  pb-10">
+              <section className="prog-info-container max-w-4xl mx-auto px-6  pb-10">
           {/* Background decorative shape */}
           <div className="absolute top-1/2 left-0 w-80 h-80 
           bg-(--color-bg-light-warm) rounded-full blur-3xl opacity-60 -z-10 transform -translate-x-1/2 -translate-y-1/2"></div>
           
           <div className="grid grid-cols-3 gap-6">
             {/* Box 1 */}
-            <div className="bg-white rounded-lg 
+            <div className="prog-card opacity-0 bg-white rounded-lg 
               shadow-[0_4px_25px_rgba(0,0,0,0.06)] border 
               border-(--color-bg-border) p-8 flex flex-col items-center text-center">
               <div className="w-14 h-14 rounded-full border 
@@ -25,7 +25,7 @@ export const ProgInfo=()=>{
             </div>
             
             {/* Box 2 */}
-            <div className="bg-white rounded-lg shadow-[0_4px_25px_rgba(0,0,0,0.06)] border 
+            <div className="prog-card opacity-0 bg-white rounded-lg shadow-[0_4px_25px_rgba(0,0,0,0.06)] border 
               border-(--color-bg-border) p-8 flex flex-col items-center text-center">
               <div className="w-14 h-14 rounded-full border 
               border-(--color-gold-light) flex items-center justify-center mb-4 text-(--color-gold-dark)">
@@ -41,7 +41,7 @@ export const ProgInfo=()=>{
             </div>
             
             {/* Box 3 */}
-            <div className="bg-white rounded-lg shadow-[0_4px_25px_rgba(0,0,0,0.06)] border 
+            <div className="prog-card opacity-0 bg-white rounded-lg shadow-[0_4px_25px_rgba(0,0,0,0.06)] border 
             border-(--color-bg-border) p-8 flex flex-col items-center text-center">
               <div className="w-14 h-14 rounded-full border 
               border-(--color-gold-light) flex items-center justify-center mb-4 text-(--color-gold-dark)">

@@ -1,6 +1,7 @@
-import { benefits } from "@/app/lib/data"
 import badge from "@/public/badge.png"
 import { ProgInfo } from "../ui/progInfo"
+import { WhoShouldEnroll } from "../ui/whoShouldEnroll"
+import { CourseJourney } from "../ui/courseJourney"
 
 export const MainContent= ()=>{
     
@@ -116,31 +117,10 @@ export const MainContent= ()=>{
         </section>
 
         {/* Who Should Enroll */}
-        <section className="max-w-4xl mx-auto px-6 pb-16 relative">
-          {/* Subtle green gradient background */}
-          <div className="absolute top-0 left-0 w-full h-full bg-linear-to-b from-transparent via-[#f2f8f4] to-transparent -z-10 opacity-60"></div>
-          
-          <h2 className="text-[28px] font-serif text-gray-800 text-center mb-12">
-            Who Should <span className="
-            text-(--color-green-medium)
-            ">Enroll?</span>
-          </h2>
-          <div className="grid grid-cols-2 gap-5">
-            {
-            benefits.map((item) => (
-              <div key={item.title} className="flex items-start gap-4 bg-white shadow-sm border 
-              border-(--color-bg-border) rounded-xl p-6">
-                <div className="shrink-0 text-(--color-gold-dark) mt-0.5 bg-(--color-bg-border) p-2.5 rounded-lg border border-(--color-bg-border-light)">
-                  {item.icon}
-                </div>
-                <div>
-                  <h3 className="font-bold text-gray-800 text-[17px] mb-1.5">{item.title}</h3>
-                  <p className="text-sm text-gray-600 leading-relaxed pr-2">{item.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
+        <WhoShouldEnroll />
+
+        {/* Course Journey */}
+        <CourseJourney />
       </div>
         </>
     )
